@@ -31,4 +31,13 @@ body{
     width: 80%;
     height:20%;
     margin-top: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    position: fixed;
+    bottom: 0;
+    display: block;
 }
