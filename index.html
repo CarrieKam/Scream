@@ -27,19 +27,38 @@
         <button class="biggerBtn">Try me!</button>
   
     <br>
+    <script>
+        function playMig() {
+            var audioMig = document.getElementById("audioMig");
+            audioMig.play();
+        }
 
-    <audio controls>
-        <source src="Miguel.mp3" type="audio/mpeg">
-    </audio>
-    <audio controls>
-        <source src="Joey.mp3" type="audio/mpeg">
-    </audio>
-    <audio controls>
-        <source src="Soyeon.mp3" type="audio/mpeg">
-    </audio>
-    <audio controls>
-        <source src="Joey_Whisper.mp3" type="audio/mpeg">
-    </audio>
+        function playJo() {
+            var audioJo = document.getElementById("audioJo");
+            audioJo.play();
+        }
+
+        function playSo() {
+            var audioSo = document.getElementById("audioSo");
+            audioSo.play();
+        }
+
+        function playWhis() {
+            var audioWhis = document.getElementById("audioWhis");
+            audioWhis.play();
+        }
+    </script>
+
+    <input type="button" value="PLAY" onclick="playMig()">
+    <input type="button" value="PLAY" onclick="playJo()">
+    <input type="button" value="PLAY" onclick="playSo()">
+    <input type="button" value="PLAY" onclick="playWhis()">
+
+    <audio id="audioMig" src="Miguel.mp3" type="audio/mpeg"></audio>
+    <audio id="audioJo" src="Joey.mp3" type="audio/mpeg"></audio>
+    <audio id="audioSo" src="Soyeon.mp3" type="audio/mpeg"></audio>
+    <audio id="audioWhis" src="Joey_Whisper.mp3" type="audio/mpeg"></audio>
+    
     
 </body>
    
