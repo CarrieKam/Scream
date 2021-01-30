@@ -1,14 +1,17 @@
 body{
     background-color:#fde8cd;
     margin: 20px;
+
 }
 
 .normalBtn {
     border: 2px solid #433520;
     background-color:#fde8cd;
     position: static;
-    margin-left: 10px;
+    margin: 10px;
     box-shadow: 0 12px 16px 0 rgba(49, 85, 85, 0.24), 0 17px 50px 0 rgba(88, 118, 143, 0.19);
+    padding: 20px;
+    width: 150px;
 }
 
 .normalBtn:hover {
@@ -20,6 +23,8 @@ body{
     border-radius: 8px;
     background-color: #00917c;
     float: left;
+    padding: 20px;
+    width: 100px;
 }
 
 .escapeBtn:hover {
@@ -29,6 +34,7 @@ body{
 .biggerBtn {
     background-color: #433520;
     color: #dfe0df;
+    padding:5px;
 }
 .biggerBtn:hover {
     width: 80%;
@@ -47,7 +53,7 @@ body{
     width: 100px;
     transition: all 0.3s;
     cursor: pointer;
-    margin: 10px;
+    margin: 30px;
 }
 
 #miguelBtn span {
@@ -65,8 +71,8 @@ body{
     position: absolute;
     opacity: 0;
     top: 0;
-    right: -20px;
-    transition: 0.3s;
+    right: -25px;
+    transition: 0.4s;
   }
   
 #miguelBtn:hover span {
@@ -88,13 +94,9 @@ body{
     cursor: pointer;
     text-align: center;
     box-shadow: 0 9px #00917c;
+    margin: 30px;
 }
 
-.button:active {
-  background-color:#433520;
-  box-shadow: 0 5px #036657;
-  transform: translateY(4px);
-}
 
 #soyeonBtn {
 
