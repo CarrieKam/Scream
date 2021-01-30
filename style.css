@@ -1,5 +1,6 @@
 body{
     background-color:#fde8cd;
+    margin: 20px;
 }
 
 .normalBtn {
@@ -78,14 +79,28 @@ body{
 }
 
 #joeyBtn {
+    float:right;
+    background-color:#80653d;
+    color:#fde8cd;
+    border-radius: 16px;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 9px #00917c;
+}
 
+.button:active {
+  background-color:#433520;
+  box-shadow: 0 5px #036657;
+  transform: translateY(4px);
 }
 
 #soyeonBtn {
 
 }
 
-joey_WhisperBtn {
+#joey_WhisperBtn {
 
 }
 
