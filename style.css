@@ -12,6 +12,7 @@ body{
 
 .normalBtn:hover {
     background-color:#433520;
+    color: #dfe0df;
 }
 
 .escapeBtn {
@@ -33,6 +34,59 @@ body{
     height:20%;
     margin-top: 10px;
     margin-left: 20px;
+    background-color: #00917c;
+}
+
+#miguelBtn {
+    background-color: #dfe0df;
+    border: 2px solid #00917c;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#miguelBtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+    color: #433520;
+    font-size: 20px;
+    font-family: "Lucida Console", monospace;
+}
+
+#miguelBtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+#miguelBtn:hover span {
+    padding-right: 20px;
+}
+
+#miguelBtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#joeyBtn {
+
+}
+
+#soyeonBtn {
+
+}
+
+joey_WhisperBtn {
+
 }
 
 footer {
