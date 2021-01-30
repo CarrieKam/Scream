@@ -5,6 +5,9 @@ body{
 .normalBtn {
     border: 2px solid #008CBA;
     background-color:#f5d442;
+    position: static;
+    margin-left: 10px;
+    box-shadow: 0 12px 16px 0 rgba(49, 85, 85, 0.24), 0 17px 50px 0 rgba(88, 118, 143, 0.19);
 }
 
 .normalBtn:hover {
@@ -19,4 +22,13 @@ body{
 
 .escapeBtn:hover {
     float:right;
+}
+
+.biggerBtn {
+    background-color:blueviolet;
+}
+.biggerBtn:hover {
+    width: 80%;
+    height:20%;
+    margin-top: 10px;
 }
