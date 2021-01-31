@@ -9,7 +9,7 @@ body{
     margin: 30px;
 }
 #logo{  
-    position:fixed; /*hello*/
+    position:absolute; /*hello*/
 	top:50px; 
 }
 
@@ -21,12 +21,13 @@ body{
 .normalBtn {
     border: 2px solid #433520;
     background-color:#fde8cd;
-    position: static;
+    position: absolute;
     margin: 10px;
+    top:50%;
+    left: 45%;
     box-shadow: 0 12px 16px 0 rgba(49, 85, 85, 0.24), 0 17px 50px 0 rgba(88, 118, 143, 0.19);
     padding: 20px;
     width: 150px;
-    
 }
 
 .normalBtn:hover {
@@ -47,15 +48,21 @@ body{
 }
 
 .biggerBtn {
+    position: absolute;
     background-color: #433520;
     color: #dfe0df;
     padding:10px;
+    margin: 10px;
+    top: 50%;
+    left: 60%;
 }
 .biggerBtn:hover {
-    width: 80%;
+    width: 30%;
     height:20%;
     margin-top: 10px;
     margin-left: 20px;
+    top: 75%;
+    left: 35%;
     background-color: #00917c;
 }
 
@@ -68,7 +75,11 @@ body{
     width: 100px;
     transition: all 0.3s;
     cursor: pointer;
+
     margin: 30px;
+    position: absolute;
+    left:60%;
+    top:60%;
 }
 
 #miguelBtn span {
@@ -108,8 +119,12 @@ body{
     font-size: 24px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 9px #00917c;
+    box-shadow: 0 9px #18837c;
     margin: 30px;
+
+    position: absolute;
+    left:50%;
+    top:60%;
 }
 
 
@@ -118,18 +133,26 @@ body{
     background-color: #00917c;
     color:#dfe0df;
     border-radius: 50%;
-    margin: 20px;
+    margin: 30px;
     padding: 20px;
+    position: absolute;
+    left:40%;
+    top:60%;
 }
 
 #joey_WhisperBtn {
-    font-size:50px;
+    font-size:30px;
     background-color: #5f4b29;
     color: #fde8cd;
     padding: 30px;
     font-family: "Courier New", monospace;
     border-radius: 40%;
     border: 4px solid #00917c;
+    margin: 30px;
+    padding: 20px;
+    position: absolute;
+    left:30%;
+    top:60%;
 }
 
 #joey_WhisperBtn:hover {
@@ -138,11 +161,21 @@ body{
 aside{
     font-family: 'Carter One', cursive;
     text-align: right;
+    position: absolute;
+    right:10px;
+    bottom: 80px;
 }
 footer {
     text-align: center;
-    position: relative;;
+    /*position: relative;;
     bottom: 0;
-    padding:5px;
-   
+    padding:60px;*/
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
 }
+
+
