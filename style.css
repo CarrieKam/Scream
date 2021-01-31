@@ -26,6 +26,7 @@ body{
     box-shadow: 0 12px 16px 0 rgba(49, 85, 85, 0.24), 0 17px 50px 0 rgba(88, 118, 143, 0.19);
     padding: 20px;
     width: 150px;
+    
 }
 
 .normalBtn:hover {
@@ -134,10 +135,14 @@ body{
 #joey_WhisperBtn:hover {
     box-shadow: 10px 10px 8px blue, 15px 15px 8px red, 20px 20px 8px green;
 }
-
+aside{
+    font-family: 'Carter One', cursive;
+    text-align: right;
+}
 footer {
     text-align: center;
     position: relative;;
     bottom: 0;
     padding:5px;
+   
 }
