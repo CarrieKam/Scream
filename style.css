@@ -28,6 +28,7 @@ body{
     box-shadow: 0 12px 16px 0 rgba(49, 85, 85, 0.24), 0 17px 50px 0 rgba(88, 118, 143, 0.19);
     padding: 20px;
     width: 150px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .normalBtn:hover {
@@ -37,7 +38,8 @@ body{
 
 .escapeBtn {
     border-radius: 8px;
-    background-color: #00917c;
+    border-color: #e7601c;
+    background-color: #ED9467;
     float: left;
     padding: 20px;
     width: 100px;
@@ -49,16 +51,18 @@ body{
 
 .biggerBtn {
     position: absolute;
-    background-color: #433520;
+    background-color: #00af91;
     color: #dfe0df;
-    padding:10px;
+    padding:15px;
     margin: 10px;
     top: 50%;
     left: 60%;
+font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
 }
 .biggerBtn:hover {
     width: 30%;
-    height:20%;
+    height:10%;
     margin-top: 10px;
     margin-left: 20px;
     top: 75%;
@@ -75,10 +79,9 @@ body{
     width: 100px;
     transition: all 0.3s;
     cursor: pointer;
-
     margin: 30px;
     position: absolute;
-    left:60%;
+    left:50%;
     top:60%;
 }
 
@@ -112,26 +115,28 @@ body{
 
 #joeyBtn {
     float:right;
-    background-color:#80653d;
-    color:#fde8cd;
+    background-color:#ffcb8e;
+    color:#e97171;
     border-radius: 16px;
     padding: 15px 25px;
     font-size: 24px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 9px #18837c;
-    margin: 30px;
+    box-shadow: 0 9px #810000;
 
+    margin: 30px;
     position: absolute;
-    left:50%;
+    left:60%;
     top:60%;
+
+
 }
 
 
 #soyeonBtn {
     font-size:24px;
-    background-color: #00917c;
-    color:#dfe0df;
+    background-color: #91684a;
+    color:#F9AD59;
     border-radius: 50%;
     margin: 30px;
     padding: 20px;
@@ -142,8 +147,8 @@ body{
 
 #joey_WhisperBtn {
     font-size:30px;
-    background-color: #5f4b29;
-    color: #fde8cd;
+    background-color: #a3ddcb;
+    color: #03506f;
     padding: 30px;
     font-family: "Courier New", monospace;
     border-radius: 40%;
@@ -158,6 +163,15 @@ body{
 #joey_WhisperBtn:hover {
     box-shadow: 10px 10px 8px blue, 15px 15px 8px red, 20px 20px 8px green;
 }
+
+#p_ipsum{
+position: absolute;
+right: 4%;
+font-size: large;
+top: 40%;
+
+}
+
 aside{
     font-family: 'Carter One', cursive;
     text-align: right;
