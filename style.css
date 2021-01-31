@@ -34,7 +34,7 @@ body{
 .biggerBtn {
     background-color: #433520;
     color: #dfe0df;
-    padding:5px;
+    padding:10px;
 }
 .biggerBtn:hover {
     width: 80%;
@@ -99,11 +99,26 @@ body{
 
 
 #soyeonBtn {
-
+    font-size:24px;
+    background-color: #00917c;
+    color:#dfe0df;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 20px;
 }
 
 #joey_WhisperBtn {
+    font-size:50px;
+    background-color: #5f4b29;
+    color: #fde8cd;
+    padding: 30px;
+    font-family: "Courier New", monospace;
+    border-radius: 40%;
+    border: 4px solid #00917c;
+}
 
+#joey_WhisperBtn:hover {
+    box-shadow: 10px 10px 8px blue, 15px 15px 8px red, 20px 20px 8px green;
 }
 
 footer {
